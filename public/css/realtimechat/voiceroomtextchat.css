@@ -1,0 +1,36 @@
+.chat-container{
+	position: fixed;
+	width: 350px;	
+	max-height: 505px;
+	z-index: 100;
+	right: 20px;
+	bottom: 10px;
+	display: none;
+}
+.chat-container #chat-body{
+	max-height: 290px;
+	overflow-y: auto;
+}
+.chat-container #accordion{
+	background: #223b33; 	
+}
+.chat-container .student p{
+	background:#01a2a6;
+	border-radius:3px;
+	padding:7px; 
+	margin-right:10px;
+	color:#fff;
+}
+.chat-container .instructor  p{
+	background:#5e8d69;
+	border-radius:3px;
+	padding:7px; 
+	margin-left:10px;
+	color:#fff;
+}
+.chat-container img{
+	width:30px;
+}
+.chat-container .panel-footer{
+	background-color:#fff;
+}
